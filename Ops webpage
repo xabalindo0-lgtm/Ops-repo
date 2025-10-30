@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paragon Ops Industries - Technology Solutions</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .grid-item {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Paragon Ops Industries</h1>
+  <h2>the supply chain of technology</h2>
+  <h3>Computers</h3>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="image1.jpg" alt="Budget Mini PC">
+      <h4>Budget Mini PC</h4>
+      <p>R2,999</p>
+      <ul>
+        <li>CPU: Intel Celeron</li>
+        <li>RAM: 4GB DDR4</li>
+        <li>Storage: 128GB SSD</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <img src="image2.jpg" alt="Budget Desktop">
+      <h4>Budget Desktop</h4>
+      <p>R4,999</p>
+      <ul>
+        <li>CPU: AMD Ryzen 3 3200G</li>
+        <li>RAM: 8GB DDR4</li>
+        <li>GPU: NVIDIA GeForce GTX 1650 2GB</li>
+        <li>Storage: 500GB HDD</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <img src="image3.jpg" alt="Mid-Range Mini PC">
+      <h4>Mid-Range Mini PC</h4>
+      <p>R4,999</p>
+      <ul>
+        <li>CPU: Intel Core i3</li>
+        <li>RAM: 8GB DDR4</li>
+        <li>Storage: 256GB SSD</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <img src="image4.jpg" alt="High-End Mini PC">
+      <h4>High-End Mini PC</h4>
+      <p>R7,999</p>
+      <ul>
+        <li>CPU: Intel Core i5</li>
+        <li>RAM: 16GB DDR4</li>
+        <li>Storage: 512GB SSD</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <img src="image5.jpg" alt="Premium Mini PC">
+      <h4>Premium Mini PC</h4>
+      <p>R10,999</p>
+      <ul>
+        <li>CPU: Intel Core i7</li>
+        <li>RAM: 32GB DDR4</li>
+        <li>Storage: 1TB SSD</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <img src="image6.jpg" alt="Ultimate Mini PC">
+      <h4>Ultimate Mini PC</h4>
+      <p>R14,999</p>
+      <ul>
+        <li>CPU: Intel Core i9</li>
+        <li>RAM: 64GB DDR4</li>
+        <li>Storage: 2TB SSD</li>
+      </ul>
+    </div>
+  </div>
+</body>
+<div class="grid-item">
+  <img src="image7.jpg" alt="Budget Desktop">
+  <h4>Budget Desktop</h4>
+  <p>R4,999</p>
+  <ul>
+    <li>CPU: AMD Ryzen 3 3200G</li>
+    <li>RAM: 8GB DDR4</li>
+    <li>GPU: NVIDIA GeForce GTX 1650 2GB</li>
+    <li>Storage: 500GB HDD</li>
+  </ul>
+</div>
+<div class="grid-item">
+  <img src="image8.jpg" alt="Gaming Desktop">
+  <h4>Gaming Desktop</h4>
+  <p>R12,999</p>
+  <ul>
+    <li>CPU: AMD Ryzen 9 5900X</li>
+    <li>RAM: 16GB DDR4</li>
+    <li>GPU: NVIDIA GeForce RTX 3070 8GB</li>
+    <li>Storage: 1TB NVMe SSD</li>
+  </ul>
+</div>
+<!-- Laptops -->
+<div class="grid-item">
+  <img src="image9.jpg" alt="Budget Laptop">
+  <h4>Budget Laptop</h4>
+  <p>R3,999</p>
+  <ul>
+    <li>CPU: Intel Core i3-1005G1</li>
+    <li>RAM: 8GB DDR4</li>
+    <li>Storage: 256GB SSD</li>
+  </ul>
+</div>
+<div class="grid-item">
+  <img src="image10.jpg" alt="Gaming Laptop">
+  <h4>Gaming Laptop</h4>
+  <p>R14,999</p>
+  <ul>
+    <li>CPU: Intel Core i7-10750H</li>
+    <li>RAM: 16GB DDR4</li>
+    <li>GPU: NVIDIA GeForce GTX 1660 Ti 6GB</li>
+    <li>Storage: 512GB NVMe SSD</li>
+  </ul>
+</div>
+<div class="grid-item">
+  <img src="image11.jpg" alt="High-End Mini PC">
+  <h4>High-End Mini PC</h4>
+  <p>R9,999</p>
+  <ul>
+    <li>CPU: Intel Core i7-11700</li>
+    <li>RAM: 16GB DDR4</li>
+    <li>Storage: 512GB NVMe SSD</li>
+  </ul>
+</div>
+<h3>Components</h3>
+<div class="grid-container">
+<!-- CPUs -->
+<div class="grid-item">
+  <img src="image12.jpg" alt="AMD Ryzen 5 5600X">
+  <h4>CPU: AMD Ryzen 5 5600X</h4>
+  <p>R3,499</p>
+</div>
+<div class="grid-item">
+  <img src="image13.jpg" alt="Intel Core i9-11900K">
+  <h4>CPU: Intel Core i9-11900K</h4>
+  <p>R10,999</p>
+</div>
+<!-- Motherboards -->
+<div class="grid-item">
+  <img src="image14.jpg" alt="MSI B550M BAZOOKA">
+  <h4>Motherboard: MSI B550M BAZOOKA</h4>
+  <p>R2,299</p>
+</div>
+<div class="grid-item">
+  <img src="image15.jpg" alt="ASRock X570 TAICHI">
+  <h4>Motherboard: ASRock X570 TAICHI</h4>
+  <p>R4,999</p>
+</div>
+<!-- RAM -->
+<div class="grid-item">
+  <img src="image16.jpg" alt="Corsair Vengeance LPX 16GB">
+  <h4>RAM: Corsair Vengeance LPX 16GB</h4>
+  <p>R1,499</p>
+</div>
+<div class="grid-item">
+  <img src="image17.jpg" alt="Corsair Vengeance LPX 32GB">
+  <h4>RAM: Corsair Vengeance LPX 32GB</h4>
+  <p>R2,999</p>
+</div>
+<!-- GPUs -->
+<div class="grid-item">
+  <img src="image18.jpg" alt="NVIDIA GeForce GTX 1660 Super">
+  <h4>GPU: NVIDIA GeForce GTX 1660 Super</h4>
+  <p>R3,999</p>
+</div>
+<div class="grid-item">
+  <img src="image19.jpg" alt="NVIDIA GeForce RTX 3080">
+  <h4>GPU: NVIDIA GeForce RTX 3080</h4>
+  <p>R14,999</p>
+</div>
+<!-- Storage -->
+<div class="grid-item">
+  <img src="image20.jpg" alt="Kingston A2000 1TB NVMe SSD">
+  <h4>Storage: Kingston A2000 1TB NVMe SSD</h4>
+  <p>R1,299</p>
+</div>
+<div class="grid-item">
+  <img src="image21.jpg" alt="Western Digital Caviar Blue 2TB HDD">
+  <h4>Storage: Western Digital Caviar Blue 2TB HDD</h4>
+  <p>R1,499</p>
+</div>
+<!-- Power Supplies -->
+<div class="grid-item">
+  <img src="image22.jpg" alt="EVGA 550 GS">
+  <h4>Power Supply: EVGA 550 GS</h4>
+  <p>R1,899</p>
+</div>
+<div class="grid-item">
+  <img src="image23.jpg" alt="Corsair RM750x">
+  <h4>Power Supply: Corsair RM750x</h4>
+  <p>R2,499</p>
+</div>
+</div>
+<div class="grid-container">
+  <!-- Gaming Chairs -->
+  <section id="gaming-chairs">
+    <h2>Gaming Chairs</h2>
+    <div class="grid">
+      <div class="product">
+        <img src="image24.jpg" alt="High-End Gaming Chair 1">
+        <h3>High-End Gaming Chair 1</h3>
+        <p>Premium gaming chair with advanced features. R 5,999.99</p>
+      </div>
+      <div class="product">
+        <img src="image25.jpg" alt="High-End Gaming Chair 2">
+        <h3>High-End Gaming Chair 2</h3>
+        <p>Elite gaming chair with exceptional comfort. R 6,499.99</p>
+      </div>
+    </div>
+  </section>
+  <div class="card-container">
+    <h3>Monitors</h3>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="image26.jpg" alt="Dell UltraSharp U2419">
+        <h4>Monitor: Dell UltraSharp U2419</h4>
+        <p>R3,999</p>
+        <ul>
+          <li>24" IPS Display</li>
+          <li>1080p Resolution</li>
+          <li>60Hz Refresh Rate</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <img src="image27.jpg" alt="ASUS VG278Q">
+        <h4>Monitor: ASUS VG278Q</h4>
+        <p>R4,999</p>
+        <ul>
+          <li>27" TN Display</li>
+          <li>1080p Resolution</li>
+          <li>144Hz Refresh Rate</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <img src="image28.jpg" alt="Dell UltraSharp U2419">
+        <h4>Monitor: Dell UltraSharp U2419</h4>
+        <p>R3,999</p>
+        <ul>
+          <li>24" IPS Display</li>
+          <li>1080p Resolution</li>
+          <li>60Hz Refresh Rate</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+  <img src="image29.jpg" alt="ASUS VG278Q">
+  <h4>Monitor: ASUS VG278Q</h4>
+  <p>R4,999</p>
+  <ul>
+    <li>27" TN Display</li>
+    <li>1080p Resolution</li>
+    <li>144Hz Refresh Rate</li>
+  </ul>
+</div>
+<div class="grid-item">
+  <img src="image30.jpg" alt="Acer R240HY 24 1080p">
+  <h4>Monitor: Acer R240HY 24" 1080p</h4>
+  <p>R2,499</p>
+  <ul>
+    <li>24" IPS Display</li>
+    <li>1080p Resolution</li>
+    <li>60Hz Refresh Rate</li>
+  </ul>
+</div>
+<div class="grid-item">
+  <img src="image31.jpg" alt="ViewSonic 24 Curved">
+  <h4>Monitor: ViewSonic 24" Curved</h4>
+  <p>R3,499</p>
+  <ul>
+    <li>24" Curved Display</li>
+    <li>1080p Resolution</li>
+    <li>60Hz Refresh Rate</li>
+  </ul>
+</div>
+<div class="grid-item">
+  <img src="image32.jpg" alt="LG 27 4K UHD">
+  <h4>Monitor: LG 27" 4K UHD</h4>
+  <p>R8,999</p>
+  <ul>
+    <li>27" 4K Display</li>
+    <li>3840 x 2160 Resolution</li>
+    <li>60Hz Refresh Rate</li>
+  </ul>
+</div>
+<div class="grid-item">
+  <img src="image33">
+  <h4>Monitor: Samsung 32" Curved 4K</h4>
+  <p>R12,999</p>
+  <ul>
+    <li>32" Curved 4K Display</li>
+    <li>3840 x 2160 Resolution</li>
+    <li>60Hz Refresh Rate</li>
+  </ul>
+</div>
+<h3>Operating Systems</h3>
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="image34.jpg" alt="Linux">
+    <h4>Linux</h4>
+    <p>R500 installation fee</p>
+  </div>
+  <div class="grid-item">
+    <img src="image35.jpg" alt="Windows 11">
+    <h4>Windows 11</h4>
+    <p>R500 installation fee</p>
+  </div>
+  <div class="grid-item">
+    <img src="image36.jpg" alt="Ubuntu">
+    <h4>Ubuntu</h4>
+    <p>R500 installation fee</p>
+  </div>
+  <div class="grid-item">
+    <img src="image37.jpg" alt="Mac OS">
+    <h4>Mac OS</h4>
+    <p>R500 installation fee</p>
+</div>
+<h3>Surveillance System</h3>
+<div class="grid-container">
+  <h4>Hikvision Cameras</h4>
+  <div class="grid-item">
+    <img src="image38.jpg" alt="DS-2CE16C0T-IR 4MP Bullet Camera">
+    <h4>DS-2CE16C0T-IR 4MP Bullet Camera</h4>
+    <p>R1,999</p>
+  </div>
+  <div class="grid-item">
+    <img src="image39.jpg" alt="DS-2CE16C0T-IRP 1080p Dome Camera">
+    <h4>DS-2CE16C0T-IRP 1080p Dome Camera</h4>
+    <p>R2,499</p>
+  </div>
+  <div class="grid-item">
+    <img src="image40.jpg" alt="DS-2DE7A432IW-AEB 4MP PTZ Camera">
+    <h4>DS-2DE7A432IW-AEB 4MP PTZ Camera</h4>
+    <p>R4,999</p>
+  </div>
+  <div class="grid-item">
+    <img src="image41.jpg" alt="DS-2CD2043G0-I 4MP IP Camera">
+    <h4>DS-2CD2043G0-I 4MP IP Camera</h4>
+    <p>R2,999</p>
+  </div>
+  <div class="grid-item">
+    <img src="image42.jpg" alt="DS-2CD2143G0-I 4MP IP Camera">
+    <h4>DS-2CD2143G0-I 4MP IP Camera</h4>
+    <p>R3,499</p>
+  </div>
+  <div class="grid-item">
+    <img src="image43.jpg" alt="DS-2CD2047G0-L 4MP IP Camera">
+    <h4>DS-2CD2047G0-L 4MP IP Camera</h4>
+    <p>R3,999</p>
+  </div>
+  <div class="grid-item">
+    <img src="image44.jpg" alt="DS-2CD2147G0-L 4MP IP Camera">
+    <h4>DS-2CD2147G0-L 4MP IP Camera</h4>
+    <p>R4,499</p>
+  </div>
+  <h4>Hikvision NVRs</h4>
+  <div class="grid-item">
+    <img src="image45.jpg" alt="DS-7608NI-K2 8 Channel NVR">
+    <h4>DS-7608NI-K2 8 Channel NVR</h4>
+    <p>R2,499</p>
+  </div>
+  <div class="grid-item">
+    <img src="image46.jpg" alt="DS-7616NI-K2 16 Channel NVR">
+    <h4>DS-7616NI-K2 16 Channel NVR</h4>
+    <p>R3,999</p>
+  </div>
+  <div class="grid-item">
+    <img src="image47.jpg" alt="DS-7732NI-K4 32 Channel NVR">
+    <h4>DS-7732NI-K4 32 Channel NVR</h4>
+    <p>R6,999</p>
+  </div>
+  <div class="grid-item">
+    <img src="image48.jpg" alt="DS-77128NI-K8 128 Channel NVR">
+    <h4>DS-77128NI-K8 128 Channel NVR</h4>
+    <p>R19,999</p>
+  </div>
+  <h4>Hikvision Camera Packages</h4>
+  <div class="grid-item">
+    <img src="image49.jpg" alt="4 Channel Camera Package">
+    <h4>4 Channel Camera Package</h4>
+    <p>R5,999</p>
+    <ul>
+      <li>4 x DS-2CE16C0T-IR 4MP Bullet Cameras</li>
+      <li>1 x DS-7608NI-K2 8 Channel NVR</li>
+    </ul>
+  </div>
+  <div class="grid-item">
+  <img src="image50.jpg" alt="8 Channel Camera Package">
+  <h4>8 Channel Camera Package</h4>
+  <p>R11,999</p>
+  <ul>
+    <li>8 x DS-2CE16C0T-IR 4MP Bullet Cameras</li>
+    <li>1 x DS-7616NI-K2 16 Channel NVR</li>
+  </ul>
+</div>
+<div class="grid-item">
+  <img src="image51.jpg" alt="16 Channel Camera Package">
+  <h4>16 Channel Camera Package</h4>
+  <p>R23,999</p>
+  <ul>
+    <li>16 x DS-2CE16C0T-IR 4MP Bullet Cameras</li>
+    <li>1 x DS-7732NI-K4 32 Channel NVR</li>
+  </ul>
+</div>
+</div>
+</body>
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="image52.jpg" alt="Gaming Chair">
+    <h4>Gaming Chair</h4>
+    <p>R 5,999.99</p>
+    <ul>
+      <li>Premium gaming chair</li>
+      <li>Advanced features</li>
+    </ul>
+  </div>
+  <div class="grid-item">
+    <img src="image53.jpg" alt="Office Chair">
+    <h4>Office Chair</h4>
+    <p>R 999.99</p>
+    <ul>
+      <li>Comfortable office chair</li>
+      <li>Affordable price</li>
+    </ul>
+  </div>
+  <div class="grid-item">
+    <img src="image54.jpg" alt="Gaming Keyboard">
+    <h4>Gaming Keyboard</h4>
+    <p>R 3,999.99</p>
+    <ul>
+      <li>Customizable gaming keyboard</li>
+      <li>Advanced features</li>
+    </ul>
+  </div>
+  <div class="grid-item">
+    <img src="image55.jpg" alt="Office Keyboard">
+    <h4>Office Keyboard</h4>
+    <p>R 199.99</p>
+    <ul>
+      <li>Standard office keyboard</li>
+      <li>Affordable price</li>
+    </ul>
+  </div>
+  <div class="grid-item">
+    <img src="image56.jpg" alt="Gaming Mouse">
+    <h4>Gaming Mouse</h4>
+    <p>R 1,999.99</p>
+    <ul>
+      <li>Precision gaming mouse</li>
+      <li>Advanced features</li>
+    </ul>
+  </div>
+  <div class="grid-item">
+    <img src="image57.jpg" alt="Office Mouse">
+    <h4>Office Mouse</h4>
+    <p>R 99.99</p>
+    <ul>
+      <li>Standard office mouse</li>
+      <li>Affordable price</li>
+    </ul>
+  </div>
+  <style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .grid-item h4 {
+    margin-top: 0;
+  }
+
+  .grid-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .grid-item li {
+    margin-bottom: 10px;
+}
+
+</style>
+
+<footer>
+  <p>&copy; 2024 Paragon Ops Industries. All rights reserved.</p>
+  <p>Follow us on <a href="https://www.facebook.com/your-facebook-handle" target="_blank">Facebook</a></p>
+  <p>Contact us: <a href="mailto:xabalindo@mail.com">xabalindo@mail.com</a> | +27 810283986</p>
+  <p><a href="#">Subscribe to our newsletter</a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manchester City Cyberpunk</title>
+  <style>
+    html, body {
+      background: linear-gradient(90deg, #6CABDD, #1D428A);
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+    }
+
+    body {
+      color: #000;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+</body>
+</html>
